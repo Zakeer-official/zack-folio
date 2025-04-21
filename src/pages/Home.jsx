@@ -25,7 +25,7 @@ export default function Home() {
 							Hey there I am
 						</p>
 						<p className="cristik text-2xl sm:text-3xl md:text-4xl mt-2">
-							Anshi // :)
+							Zakeer // :)
 						</p>
 					</h2>
 				</header>
@@ -37,7 +37,7 @@ export default function Home() {
 						<p className="text-green-400 grotesk">Create</p>
 					</p>
 					<p className="mt-1 sm:mt-2 text-lg sm:text-xl md:text-2xl relative top-[-10px] md:top-[-20px] font-medium opacity-45">
-						Robust , scalable & modern software systems
+						Robust , scalable & modern software solutions
 					</p>
 				</section>
 
@@ -88,7 +88,7 @@ export default function Home() {
 					>
 						<div>
 							<ion-icon name="logo-linkedin"></ion-icon>
-							<a href="https://www.linkedin.com/in/anshi-sachan/">Linked In</a>
+							<a href="https://www.linkedin.com/in/zakeer7/">Linked In</a>
 						</div>
 					</div>
 					<div
@@ -99,7 +99,7 @@ export default function Home() {
 					>
 						<div>
 							<ion-icon name="logo-github"></ion-icon>
-							<a href="https://github.com/anshi05">Github</a>
+							<a href="https://github.com/Zakeer-official">Github</a>
 						</div>
 					</div>
 					{/* <div className="homebox ">
@@ -111,7 +111,7 @@ export default function Home() {
 					<div className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4">
 						<div>
 							<ion-icon name="logo-medium"></ion-icon>
-							<a href="https://medium.com/@anshijio123/about">Medium</a>
+							<a href="https://medium.com/@zzakeer22/about">Medium</a>
 						</div>
 					</div>
 				</div>
