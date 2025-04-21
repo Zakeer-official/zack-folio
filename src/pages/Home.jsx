@@ -82,7 +82,7 @@ export default function Home() {
 				<div className="home-social-media lg:flex md:flex grid grid-rows-2 grid-cols-2  flex-wrap gap-4 text-white md:gap-4">
 					<div
 						onClick={() =>
-							window.open("https://www.linkedin.com/in/sahil-mengji", "_blank")
+							window.open("https://www.linkedin.com/in/zakeer7/", "_blank")
 						}
 						className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4"
 					>
@@ -93,7 +93,7 @@ export default function Home() {
 					</div>
 					<div
 						onClick={() =>
-							window.open("https://www.github.com/sahil-mengji", "_blank")
+							window.open("https://www.github.com/Zakeer-official", "_blank")
 						}
 						className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4"
 					>
