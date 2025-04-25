@@ -8,17 +8,17 @@ export default function SideNav() {
 					<img
 						src="pic.png "
 						className="shake rounded-xl"
-						alt="Anshi Sachan"
+						alt="Zakeer Ahamad"
 						width="80"
 					/>
 				</figure>
 
 				<div className="info-content">
 					<ScrambleText className="cristik name" title="Richard hanrick">
-						Anshi Sachan
+						Zakeer Ahamad Shaik
 					</ScrambleText>
 					<div className="flex gap-2 flex-wrap">
-						<p className="title">Web Developer</p>
+						<p className="title">Software Engineer</p>
 						{/* <p className="title">UI/UX Designer </p> */}
 					</div>
 				</div>
@@ -42,8 +42,8 @@ export default function SideNav() {
 						<div className="contact-info">
 							<p className="contact-title">Email</p>
 
-							<a href="mailto:sahilanand716@mail.com" className="contact-link">
-								anshi.sachan5@gmail.com
+							<a href="mailto:zzakeer22@mail.com" className="contact-link">
+								zzakeer22@mail.com
 							</a>
 						</div>
 					</li>
@@ -82,7 +82,7 @@ export default function SideNav() {
 						<div className="contact-info">
 							<p className="contact-title">Location</p>
 
-							<address>Karnataka , India</address>
+							<address>Andhra Pradesh , India</address>
 						</div>
 					</li>
 				</ul>
@@ -91,13 +91,13 @@ export default function SideNav() {
 
 				<ul className="social-list">
 					<li className="social-item">
-						<a href="https://www.linkedin.com/in/anshi-sachan/" className="social-link">
+						<a href="https://www.linkedin.com/in/zakeer7/" className="social-link">
 							<ion-icon name="logo-linkedin"></ion-icon>
 						</a>
 					</li>
 
 					<li className="social-item">
-						<a href="https://github.com/anshi05" className="social-link">
+						<a href="https://github.com/Zakeer-official" className="social-link">
 							<ion-icon name="logo-github"></ion-icon>
 						</a>
 					</li>
