@@ -56,13 +56,13 @@ export default function Home() {
 				<div className="  github homebox flex items-center cursor-pointer ">
 					
 					<a
-						href="https://github.com/anshi05"
+						href="https://github.com/Zakeer-official"
 						className="flex w-full h-full justify-center items-center"
 					>
 						
 						<img
 							className="cursor-pointer"
-							src="https://streak-stats.demolab.com/?user=anshi05&theme=rising-sun&hide_border=true&background=00000000"
+							src="https://streak-stats.demolab.com/?user=Zakeer-official&theme=rising-sun&hide_border=true&background=00000000"
 							alt="GitHub Streak Stats"
 						/>
 					</a>
