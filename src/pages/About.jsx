@@ -135,7 +135,7 @@ export default function About() {
 			</header>
 			<section className="about-text max-w-[600px]">
 				<p>
-					Hey I am Anshi, an Enthusiastic Web Devloper and Designer . I Design
+					Hey I am Zakeer, an Enthusiastic Web Devloper and Designer . I Design
 					, Code and Create modern user interfaces with a thirst for knowledge,
 					passion to learn and a love for problem-solving.
 				</p>
@@ -300,13 +300,13 @@ export default function About() {
 							/>
 							<div>
 								<h4 className="h4 timeline-item-title  font-semibold ">
-									National Institute of technology Karnataka, Surathkal (NITK)
+									Amrita Vishwa Vidyapeetham
 								</h4>
 
-								<span>B.Tech in Information Technology </span>
-								<span className="text-xs">Minors in Machine Learning </span>
+								<span>Bachelor of Technology (B.Tech) </span>
+								<span className="text-xs">Computer Science and Engineering </span>
 
-								<p className="timeline-text">2023-2027</p>
+								<p className="timeline-text">2021-2025</p>
 							</div>
 						</div>
 					</li>
@@ -320,12 +320,30 @@ export default function About() {
 							/>
 							<div>
 								<h4 className="h4 timeline-item-title font-semibold ">
-									Delhi Public school Kalyanpur Kanpur, UP
+									Narayana Junior College
 								</h4>
 
-								<span>PCM with Computer Science</span>
+								<span>Intermediate - MPC</span>
 
-								<p className="timeline-text">2017-2023</p>
+								<p className="timeline-text">2019-2021</p>
+							</div>
+						</div>
+					</li>
+					<li className="timeline-item">
+						<div className="flex gap-4 hover:translate-x-2 duration-[200ms] cursor-pointer transition-transform">
+							<img
+								className="w-[50px] h-[50px] rounded-lg border border-gray-600"
+								src="dpsk.jpeg"
+								alt=""
+							/>
+							<div>
+								<h4 className="h4 timeline-item-title font-semibold ">
+									Narayana Co School
+								</h4>
+
+								<span> Class - X </span>
+
+								<p className="timeline-text">2018-2019</p>
 							</div>
 						</div>
 					</li>
