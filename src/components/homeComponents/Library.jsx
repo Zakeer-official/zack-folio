@@ -9,7 +9,7 @@ export default function Library() {
 				<p className="opacity-60 text-xl">Tracker</p>
 			</p>
 			
-			<CodingStats leetcodeHandle="intruder_05" codeforcesHandle="intruder_05" />
+			<CodingStats leetcodeHandle="zakeer_official" codeforcesHandle="zakeerofficial" />
 		</div>
 	);
 }
