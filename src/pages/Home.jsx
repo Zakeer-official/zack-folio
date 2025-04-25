@@ -62,7 +62,7 @@ export default function Home() {
 						
 						<img
 							className="cursor-pointer"
-							src="https://streak-stats.demolab.com/?user=Zakeer-official&theme=rising-sun&hide_border=true&background=00000000"
+							src="https://streak-stats.demolab.com?user=zakeer-official&theme=rising-sun&hide_border=true&background=00000000"
 							alt="GitHub Streak Stats"
 						/>
 					</a>
