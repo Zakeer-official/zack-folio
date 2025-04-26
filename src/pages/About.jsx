@@ -295,7 +295,7 @@ export default function About() {
 						<div className="flex gap-4 hover:translate-x-2 duration-[200ms] cursor-pointer transition-transform">
 							<img
 								className="w-[50px] h-[50px] rounded-lg border border-gray-600"
-								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqphjixAksZ6V1zyBb01c4KoYOjyeLg7TEUQ&s"
+								src="logo-clg"
 								alt=""
 							/>
 							<div>
