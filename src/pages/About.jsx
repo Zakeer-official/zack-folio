@@ -295,7 +295,7 @@ export default function About() {
 						<div className="flex gap-4 hover:translate-x-2 duration-[200ms] cursor-pointer transition-transform">
 							<img
 								className="w-[50px] h-[50px] rounded-lg border border-gray-600"
-								src="logo-clg"
+								src="logo-clg.png"
 								alt=""
 							/>
 							<div>
@@ -315,7 +315,7 @@ export default function About() {
 						<div className="flex gap-4 hover:translate-x-2 duration-[200ms] cursor-pointer transition-transform">
 							<img
 								className="w-[50px] h-[50px] rounded-lg border border-gray-600"
-								src="dpsk.jpeg"
+								src="logo-nar.png"
 								alt=""
 							/>
 							<div>
@@ -333,7 +333,7 @@ export default function About() {
 						<div className="flex gap-4 hover:translate-x-2 duration-[200ms] cursor-pointer transition-transform">
 							<img
 								className="w-[50px] h-[50px] rounded-lg border border-gray-600"
-								src="dpsk.jpeg"
+								src="logo-nar.png"
 								alt=""
 							/>
 							<div>
