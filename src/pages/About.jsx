@@ -1,6 +1,17 @@
 import React, { useState } from "react";
+import { useEffect } from 'react';
 
 export default function About() {
+	useEffect(() => {
+	    if (window.location.hash === '#skills') {
+	      const skillsSection = document.getElementById('skills');
+	      if (skillsSection) {
+	        setTimeout(() => {
+	          skillsSection.scrollIntoView({ behavior: 'smooth' });
+	        }, 100); // Small delay to ensure page is fully loaded
+	      }
+	    }
+	  }, []);
 	const Experience = [
 		{
 			company: "GirlScript Summer of Code",
