@@ -4,6 +4,17 @@ import TypingEffect from "../TypingEffect";
 import Link from 'next/link';
 import { useEffect } from 'react';
 
+
+function handleSkillsClick(e) {
+  // If already on about page, scroll to section
+  if (window.location.pathname === '/about') {
+    e.preventDefault();
+    document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' });
+  }
+  // Otherwise, Next.js will handle navigation to /about#skills
+}
+
+
 export default function Skills() {
 	const textData = [
 		{ text: "Python Programmer" },
@@ -16,19 +27,10 @@ export default function Skills() {
 				<TypingEffect textData={textData} />
 			</div>
 			<Link 
-			href="/about#skills" 
-			onClick={(e) => {
-			  // Only handle the scroll if we're already on the about page
-			  if (window.location.pathname === '/about') {
-			    e.preventDefault();
-			    const skillsSection = document.getElementById('skills');
-			    if (skillsSection) {
-			      skillsSection.scrollIntoView({ behavior: 'smooth' });
-			    }
-			  }
-			}}
-			className="block"
-		      >
+			        href="/about#skills" 
+			        onClick={handleSkillsClick}
+			        className="block"
+			      >
 			<p className="text-base sm:text-lg md:text-xl text-yellow-300">
 				<span className="cristik">
 					View Skills <br />& technologies
