@@ -5,17 +5,19 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 
 
-function handleSkillsClick(e) {
-  // If already on about page, scroll to section
-  if (window.location.pathname === '/about') {
-    e.preventDefault();
-    document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' });
-  }
-  // Otherwise, Next.js will handle navigation to /about#skills
-}
-
 
 export default function Skills() {
+	const handleClick = (e) => {
+	    // If already on about page
+	    if (window.location.pathname === '/about') {
+	      e.preventDefault();
+	      const element = document.getElementById('skills');
+	      if (element) {
+	        element.scrollIntoView({ behavior: 'smooth' });
+	        window.history.pushState(null, '', '#skills');
+	      }
+	    }
+	  };
 	const textData = [
 		{ text: "Python Programmer" },
 		{ text: "WEB Development" },
@@ -28,7 +30,7 @@ export default function Skills() {
 			</div>
 			<Link 
 			        href="/about#skills" 
-			        onClick={handleSkillsClick}
+			        onClick={handleClick}
 			        className="block"
 			      >
 			<p className="text-base sm:text-lg md:text-xl text-yellow-300">
