@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 import React from "react";
 
 import "./App.css";
 import SideNav from "./components/SideNav";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
-import { Route, Routes } from "react-router";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import Resume from "./pages/Resume";
@@ -14,6 +14,17 @@ import Home from "./pages/Home";
 import PortfolioSheet from "./components/PortfolioSheet";
 import Loader from "./components/Loader";
 import Experiments from "./pages/Experiments";
+
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
 	const [sheetOpen, setSheetOpen] = useState(false);
@@ -35,6 +46,7 @@ function App() {
 			<main
 				className={`transition-transform  ${sheetOpen ? "scale-[0.90]" : ""}`}
 			>
+				<ScrollToTop />
 				<SideNav />
 				<Navbar />
 				<div className="main-content">
