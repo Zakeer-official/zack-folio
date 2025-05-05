@@ -143,17 +143,7 @@ const Navbar = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex text-2xl text-gray-400  gap-2">
-					<a className="transition-colors hover:text-gray-200" href="">
-						<ion-icon name="logo-github"></ion-icon>
-					</a>
-					<a className="transition-colors hover:text-gray-200" href="">
-						<ion-icon name="logo-instagram"></ion-icon>
-					</a>
-					<a className="transition-colors hover:text-gray-200" href="">
-						<ion-icon name="logo-linkedin"></ion-icon>
-					</a> 
-				</div>
+				
 			</div>
 			</nav>
 			{isMobileMenuOpen && (
