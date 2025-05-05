@@ -1,7 +1,26 @@
 import React, { useState } from "react";
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom'
 
 export default function About() {
+	 const location = useLocation()
+		useEffect(() => {
+	    if (location.hash === '#skills') {
+	      setTimeout(() => {
+	        const element = document.getElementById('skills')
+	        if (element) {
+	          const headerHeight = 80
+	          const elementPosition = element.getBoundingClientRect().top
+	          const offsetPosition = elementPosition + window.scrollY - headerHeight
+	          
+	          window.scrollTo({
+	            top: offsetPosition,
+	            behavior: 'smooth'
+	          })
+	        }
+	      }, 300)
+	    }
+	  }, [location.hash])
 	useEffect(() => {
 	    if (window.location.hash === '#skills') {
 	      const skillsSection = document.getElementById('skills');
