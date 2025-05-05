@@ -103,9 +103,6 @@ const Navbar = () => {
 						</div>
 					</div>
 					<div className=" text-white px-6 h-[60px]  overflow-hidden rounded-2xl flex items-center justify-between p-0">
-						<p className="cristik text-2xl font-medium bg-gradient-to-r from-yellow-300 to-orange-500 bg-clip-text text-transparent">
-							<ScrambleText>ZAKEER</ScrambleText>
-						</p>
 						<img src="logo.png" className="h-[80%]" />
 
 						<div className="hidden md:flex space-x-4 relative h-full items-center p-0">
