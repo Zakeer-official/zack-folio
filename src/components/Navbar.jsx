@@ -61,14 +61,14 @@ const Navbar = () => {
 				</div>
 			),
 		},
-		// {
-		// 	path: "/experiments",
-		// 	name: (
-		// 		<div className="flex items-center gap-2">
-		// 			<ion-icon name="flask-outline"></ion-icon> Experiments
-		// 		</div>
-		// 	),
-		// },
+		{
+			path: "/experiments",
+			name: (
+				<div className="flex items-center gap-2">
+					<ion-icon name="flask-outline"></ion-icon> Certification
+				</div>
+			),
+		},
 	];
 
 	return (
@@ -103,9 +103,9 @@ const Navbar = () => {
 						</div>
 					</div>
 					<div className=" text-white px-6 h-[60px]  overflow-hidden rounded-2xl flex items-center justify-between p-0">
-						{/* <p className="cristik text-2xl font-medium bg-gradient-to-r from-yellow-300 to-orange-500 bg-clip-text text-transparent">
-							<ScrambleText>ANSHI</ScrambleText>
-						</p> */}
+						<p className="cristik text-2xl font-medium bg-gradient-to-r from-yellow-300 to-orange-500 bg-clip-text text-transparent">
+							<ScrambleText>ZAKEER</ScrambleText>
+						</p>
 						<img src="logo.png" className="h-[80%]" />
 
 						<div className="hidden md:flex space-x-4 relative h-full items-center p-0">
@@ -146,8 +146,8 @@ const Navbar = () => {
 						</div>
 					</div>
 				</div>
-				{/* <div className="flex text-2xl text-gray-400  gap-2">
-					{/* <a className="transition-colors hover:text-gray-200" href="">
+				<div className="flex text-2xl text-gray-400  gap-2">
+					<a className="transition-colors hover:text-gray-200" href="">
 						<ion-icon name="logo-github"></ion-icon>
 					</a>
 					<a className="transition-colors hover:text-gray-200" href="">
@@ -159,7 +159,7 @@ const Navbar = () => {
 						<ion-icon name="logo-linkedin"></ion-icon>
 					</a> 
 				</div>
-			</div> */}
+			</div>
 			</nav>
 			{isMobileMenuOpen && (
 				<div className="fixed bottom-0 left-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-center justify-center transition-[background-color] duration-700"></div>
