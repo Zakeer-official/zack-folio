@@ -20,17 +20,7 @@ export default function About() {
 	        }
 	      }, 300)
 	    }
-	  }, [location.hash])
-	useEffect(() => {
-	    if (window.location.hash === '#skills') {
-	      const skillsSection = document.getElementById('skills');
-	      if (skillsSection) {
-	        setTimeout(() => {
-	          skillsSection.scrollIntoView({ behavior: 'smooth' });
-	        }, 300); // Small delay to ensure page is fully loaded
-	      }
-	    }
-	  }, []);
+	  }, [location.hash]);
 	const Experience = [
 		{
 			company: "GirlScript Summer of Code",
@@ -174,21 +164,6 @@ export default function About() {
 					crafting dynamic and innovative web solutions.
 				</p>
 			</section>
-			<section id="skills" className="py-10">
-				{Skills.map((skillCategory, index) => (
-				  <div key={index} className="mb-8">
-				    {skillCategory.category}
-				    <div className="flex flex-wrap gap-4 mt-4">
-				      {skillCategory.skill.map((skill, skillIndex) => (
-					<div key={skillIndex} className="flex items-center gap-2 p-2 rounded-lg bg-gray-800">
-					  <img src={`/skills/${skill.image}`} alt={skill.name} className="w-6 h-6" />
-					  <span>{skill.name}</span>
-					</div>
-				      ))}
-				    </div>
-				  </div>
-				))}
-			      </section>
 			<section className="service">
 				<h3 className="h3 service-title ">What i Do ?</h3>
 
@@ -223,35 +198,6 @@ export default function About() {
 							</p>
 						</div>
 					</li>
-
-					{/* <li className="service-item">
-						<div className="service-icon-box">
-							<img src="icon-app.svg" alt="mobile app icon" width="40" />
-						</div>
-
-						<div className="service-content-box">
-							<h4 className="h4 service-item-title">Mobile apps Development</h4>
-
-							<p className="service-item-text">
-								Professional development of applications for iOS and Android.
-							</p>
-						</div>
-					</li>
-
-					<li className="service-item">
-						<div className="service-icon-box text-[30px] text-[#ffcb66]">
-							<ion-icon name="cube-outline"></ion-icon>
-						</div>
-
-						<div className="service-content-box">
-							<h4 className="h4 service-item-title">Product Design</h4>
-
-							<p className="service-item-text">
-								I make high-quality photos of any category at a professional
-								level.
-							</p>
-						</div>
-					</li> */}
 				</ul>
 			</section>
 
@@ -292,7 +238,7 @@ export default function About() {
 				</ol>
 			</section>
 			<div className="separator"></div>
-			<section className="skill ">
+			<section id="skills" className="skill ">
 				<div className="title-wrapper ">
 					<div className="icon-box mr-4">
 						<ion-icon name="hammer-outline"></ion-icon>
