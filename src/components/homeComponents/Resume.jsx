@@ -10,10 +10,11 @@ export default function Resume() {
 					Grab My
 				</div>
 				<div className="cristik text-xl sm:text-2xl md:text-4xl">Resume</div>
+				<a href="https://drive.google.com/file/d/1QJig-UpMF49WyOAaexh-Iec9eSmhwnff/view?usp=sharing" target="_blank" rel="noopener noreferrer">
 				<p className="opacity-75 text-sm sm:text-base md:text-lg leading-6 text-yellow-200 font-thin">
 					View Complete Online <br />
 					Resume →
-				</p>
+				</p></a>
 
 				<ZoomImg
 					className="w-[70%] sm:w-[75%] md:w-[80%] absolute bottom-[-10px] sm:bottom-[-15px] md:bottom-[-20px] left-[10px] sm:left-[15px] md:left-[20px] z-10 rotate-12 hover:rotate-[16deg] hover:scale-[1.1] transition-transform peer cursor-pointer rounded-lg"
