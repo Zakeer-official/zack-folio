@@ -151,11 +151,9 @@ const Navbar = () => {
 						<ion-icon name="logo-github"></ion-icon>
 					</a>
 					<a className="transition-colors hover:text-gray-200" href="">
-						{" "}
 						<ion-icon name="logo-instagram"></ion-icon>
 					</a>
 					<a className="transition-colors hover:text-gray-200" href="">
-						{" "}
 						<ion-icon name="logo-linkedin"></ion-icon>
 					</a> 
 				</div>
