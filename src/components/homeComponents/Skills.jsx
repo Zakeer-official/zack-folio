@@ -28,7 +28,7 @@ export default function Skills() {
 				<TypingEffect textData={textData} />
 			</div>
 			<Link 
-			        href="/about#skills" 
+			        to="/about#skills"
 			        onClick={handleClick}
 			        className="block"
 			      >
