@@ -8,7 +8,7 @@ export default function About() {
 	      if (skillsSection) {
 	        setTimeout(() => {
 	          skillsSection.scrollIntoView({ behavior: 'smooth' });
-	        }, 100); // Small delay to ensure page is fully loaded
+	        }, 300); // Small delay to ensure page is fully loaded
 	      }
 	    }
 	  }, []);
