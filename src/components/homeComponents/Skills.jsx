@@ -13,6 +13,7 @@ export default function Skills() {
 			<div className="text-white text-xl sm:text-2xl md:text-3xl font-normal cristik">
 				<TypingEffect textData={textData} />
 			</div>
+			<a href="#skills" className="block">
 			<p className="text-base sm:text-lg md:text-xl text-yellow-300">
 				<span className="cristik">
 					View Skills <br />& technologies
@@ -22,6 +23,7 @@ export default function Skills() {
 					See What all I can do →
 				</span>
 			</p>
+				</a>
 
 			<OrbitingImages />
 		</div>
