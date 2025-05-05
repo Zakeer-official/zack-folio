@@ -19,7 +19,6 @@ export default function SideNav() {
 					</ScrambleText>
 					<div className="flex gap-2 flex-wrap">
 						<p className="title">Software Engineer</p>
-						{/* <p className="title">UI/UX Designer </p> */}
 					</div>
 				</div>
 
@@ -48,7 +47,7 @@ export default function SideNav() {
 						</div>
 					</li>
 
-					{/* <li className="contact-item">
+					<li className="contact-item">
 						<div className="icon-box">
 							<ion-icon name="phone-portrait-outline"></ion-icon>
 						</div>
@@ -56,13 +55,13 @@ export default function SideNav() {
 						<div className="contact-info">
 							<p className="contact-title">Phone</p>
 
-							<a href="tel:+917975578025" className="contact-link">
-								+91 79855 46729
+							<a href="tel:+917997532319" className="contact-link">
+								+91 79975 32319
 							</a>
 						</div>
-					</li> */}
+					</li>
 
-					{/* <li className="contact-item">
+					<li className="contact-item">
 						<div className="icon-box">
 							<ion-icon name="calendar-outline"></ion-icon>
 						</div>
@@ -70,9 +69,9 @@ export default function SideNav() {
 						<div className="contact-info">
 							<p className="contact-title">Birthday</p>
 
-							<time datetime="1982-06-23">December 02, 2004</time>
+							<time datetime="1982-06-23">November 16, 2002</time>
 						</div>
-					</li> */}
+					</li>
 
 					<li className="contact-item">
 						<div className="icon-box">
@@ -102,11 +101,11 @@ export default function SideNav() {
 						</a>
 					</li>
 
-					{/* <li className="social-item">
-						<a href="#" className="social-link">
+					<li className="social-item">
+						<a href="https://www.instagram.com/zakeer_ahamad_" className="social-link">
 							<ion-icon name="logo-instagram"></ion-icon>
 						</a>
-					</li> */}
+					</li>
 				</ul>
 			</div>
 		</aside>
