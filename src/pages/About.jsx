@@ -49,7 +49,6 @@ export default function About() {
 		},
 		
 	];
-	<section id="skills" className="py-10">
 	const Skills = [
 		{
 			category: (
@@ -128,20 +127,6 @@ export default function About() {
 			],
 		},
 	];
-	{Skills.map((skillCategory, index) => (
-        <div key={index}>
-            {skillCategory.category}
-            <div className="flex flex-wrap gap-4 mt-4">
-                {skillCategory.skill.map((skill, skillIndex) => (
-                    <div key={skillIndex} className="flex items-center gap-2 p-2 rounded-lg bg-gray-800">
-                        <img src={`/skills/${skill.image}`} alt={skill.name} className="w-6 h-6" />
-                        <span>{skill.name}</span>
-                    </div>
-                ))}
-            </div>
-        </div>
-    ))}
-</section>
 	return (
 		<article className="about  active" data-page="about">
 			<header>
@@ -159,7 +144,21 @@ export default function About() {
 					crafting dynamic and innovative web solutions.
 				</p>
 			</section>
-
+			<section id="skills" className="py-10">
+				{Skills.map((skillCategory, index) => (
+				  <div key={index} className="mb-8">
+				    {skillCategory.category}
+				    <div className="flex flex-wrap gap-4 mt-4">
+				      {skillCategory.skill.map((skill, skillIndex) => (
+					<div key={skillIndex} className="flex items-center gap-2 p-2 rounded-lg bg-gray-800">
+					  <img src={`/skills/${skill.image}`} alt={skill.name} className="w-6 h-6" />
+					  <span>{skill.name}</span>
+					</div>
+				      ))}
+				    </div>
+				  </div>
+				))}
+			      </section>
 			<section className="service">
 				<h3 className="h3 service-title ">What i Do ?</h3>
 
