@@ -61,14 +61,14 @@ const Navbar = () => {
 				</div>
 			),
 		},
-		// {
-		// 	path: "/experiments",
-		// 	name: (
-		// 		<div className="flex items-center gap-2">
-		// 			<ion-icon name="flask-outline"></ion-icon> Experiments
-		// 		</div>
-		// 	),
-		// },
+		{
+			path: "/experiments",
+			name: (
+				<div className="flex items-center gap-2">
+					<ion-icon name="flask-outline"></ion-icon> Experiments
+				</div>
+			),
+		},
 	];
 
 	return (
