@@ -23,50 +23,23 @@ export default function About() {
 	  }, [location.hash]);
 	const Experience = [
 		{
-			company: "GirlScript Summer of Code",
+			company: "Forever Living Products",
 			companyLogo:
 				"https://miro.medium.com/v2/resize:fit:522/1*Kns5wXF4n_f5sHKOxd4Alw.png",
-			role: "Contributor",
-			duration: "Oct 2024 - Nov 2024",
+			role: "Entrepreneur",
+			duration: "Feb 2022 - May 2022",
 			description:
-				"Contributed to open-source projects at GSSoC- Extd'24, collaborating with developers to enhance impactful community-driven solutions.",
+				"Drove significant growth in leads through data-driven marketing strategies, enhanced client satisfaction via proactive engagement, and reduced acquisition costs through analytics optimization.",
 		},
-		{
-			company: "IET NITK",
-			companyLogo:
-				"https://media.licdn.com/dms/image/v2/C560BAQGRxeqgiYrF8A/company-logo_200_200/company-logo_200_200/0/1630671178062/ietnitk_logo?e=2147483647&v=beta&t=VwQlt58O41AxWK3hbTzCanMAnn3gB2LAUlcLx08Mxd4",
-			role: "Executive Member",
-			duration: "Sept 2024 - Present",
-			description:
-				"As a member of the Coding SiG CIPHER, I'm working on innovative technical projects and participating in various competitions and hackathons.",
-		},
-		{
-			company: "Smile Club NITK",
-			companyLogo:
-				"smile.jpeg",
-			role: "Web Developer",
-			duration: "July 2024 - Present",
-			description:
-				"Contributing to the development of the SMILE Club website by utilizing Bootstrap and Django. Focused on implementing responsive design features to improve the website's functionality and user experience.",
-		},
-		{
-			company: "E-Cell NITK",
-			companyLogo:
-				"https://media.licdn.com/dms/image/D560BAQHNOlUgfHzavA/company-logo_200_200/0/1718563404533/ecellnitksurathkal_logo?e=2147483647&v=beta&t=LJJrEoJZX5VPQs6vTwluzhA2IjyH89Avorcld9mGz6o",
-			role: "Web-developer",
-			duration: "Sept 2024 - Present",
-			description:
-				"Developed a responsive website using React.js and Tailwind CSS, crafting core components like the marquee, footer, social links, and a dynamic contact page with an integrated map and seamless form functionality.",
-		},
-		{
-			company: "E-Summit and Innovation Comitte NITK",
-			companyLogo:
-				"e-summitlogo.png",
-			role: "Web Developer",
-			duration: "May 2024 - July 2024",
-			description:
-				"Played a key role in developing the official website for E-Summit, focusing on responsive design using React.js, TailwindCSS and Aceternity UI. Contributed to marque, responsive timeline section and FAQs section.",
-		},
+		// {
+		// 	company: "IET NITK",
+		// 	companyLogo:
+		// 		"https://media.licdn.com/dms/image/v2/C560BAQGRxeqgiYrF8A/company-logo_200_200/company-logo_200_200/0/1630671178062/ietnitk_logo?e=2147483647&v=beta&t=VwQlt58O41AxWK3hbTzCanMAnn3gB2LAUlcLx08Mxd4",
+		// 	role: "Executive Member",
+		// 	duration: "Sept 2024 - Present",
+		// 	description:
+		// 		"As a member of the Coding SiG CIPHER, I'm working on innovative technical projects and participating in various competitions and hackathons.",
+		// },
 		
 	];
 	const Skills = [
@@ -339,235 +312,6 @@ export default function About() {
 
 					
 				</ol>
-			</section>
-
-			{/* 
-      <!--
-        - service
-      --> */}
-
-			{/* <!--
-        - testimonials
-      --> */}
-
-			<section className="testimonials">
-				<h3 className="h3 testimonials-title">Testimonials</h3>
-
-				<ul className="testimonials-list has-scrollbar">
-					<li className="testimonials-item">
-						<div className="content-card" data-testimonials-item>
-							<figure className="testimonials-avatar-box">
-								<img
-									src="avatar-1.png"
-									alt="Daniel lewis"
-									width="60"
-									data-testimonials-avatar
-								/>
-							</figure>
-
-							<h4
-								className="h4 testimonials-item-title"
-								data-testimonials-title
-							>
-								Daniel lewis
-							</h4>
-
-							<div className="testimonials-text" data-testimonials-text>
-								<p>
-									Richard was hired to create a corporate identity. We were very
-									pleased with the work done. She has a lot of experience and is
-									very concerned about the needs of client. Lorem ipsum dolor
-									sit amet, ullamcous cididt consectetur adipiscing elit, seds
-									do et eiusmod tempor incididunt ut laborels dolore magnarels
-									alia.
-								</p>
-							</div>
-						</div>
-					</li>
-
-					<li className="testimonials-item">
-						<div className="content-card" data-testimonials-item>
-							<figure className="testimonials-avatar-box">
-								<img
-									src="avatar-2.png"
-									alt="Jessica miller"
-									width="60"
-									data-testimonials-avatar
-								/>
-							</figure>
-
-							<h4
-								className="h4 testimonials-item-title"
-								data-testimonials-title
-							>
-								Jessica miller
-							</h4>
-
-							<div className="testimonials-text" data-testimonials-text>
-								<p>
-									Richard was hired to create a corporate identity. We were very
-									pleased with the work done. She has a lot of experience and is
-									very concerned about the needs of client. Lorem ipsum dolor
-									sit amet, ullamcous cididt consectetur adipiscing elit, seds
-									do et eiusmod tempor incididunt ut laborels dolore magnarels
-									alia.
-								</p>
-							</div>
-						</div>
-					</li>
-
-					<li className="testimonials-item">
-						<div className="content-card" data-testimonials-item>
-							<figure className="testimonials-avatar-box">
-								<img
-									src="avatar-3.png"
-									alt="Emily evans"
-									width="60"
-									data-testimonials-avatar
-								/>
-							</figure>
-
-							<h4
-								className="h4 testimonials-item-title"
-								data-testimonials-title
-							>
-								Emily evans
-							</h4>
-
-							<div className="testimonials-text" data-testimonials-text>
-								<p>
-									Richard was hired to create a corporate identity. We were very
-									pleased with the work done. She has a lot of experience and is
-									very concerned about the needs of client. Lorem ipsum dolor
-									sit amet, ullamcous cididt consectetur adipiscing elit, seds
-									do et eiusmod tempor incididunt ut laborels dolore magnarels
-									alia.
-								</p>
-							</div>
-						</div>
-					</li>
-
-					<li className="testimonials-item">
-						<div className="content-card" data-testimonials-item>
-							<figure className="testimonials-avatar-box">
-								<img
-									src="avatar-4.png"
-									alt="Henry william"
-									width="60"
-									data-testimonials-avatar
-								/>
-							</figure>
-
-							<h4
-								className="h4 testimonials-item-title"
-								data-testimonials-title
-							>
-								Henry william
-							</h4>
-
-							<div className="testimonials-text" data-testimonials-text>
-								<p>
-									Richard was hired to create a corporate identity. We were very
-									pleased with the work done. She has a lot of experience and is
-									very concerned about the needs of client. Lorem ipsum dolor
-									sit amet, ullamcous cididt consectetur adipiscing elit, seds
-									do et eiusmod tempor incididunt ut laborels dolore magnarels
-									alia.
-								</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</section>
-
-			{/* 
-      <!--
-        - testimonials modal
-      --> */}
-
-			<div className="modal-container" data-modal-container>
-				<div className="overlay" data-overlay></div>
-
-				<section className="testimonials-modal">
-					<button className="modal-close-btn" data-modal-close-btn>
-						<ion-icon name="close-outline"></ion-icon>
-					</button>
-
-					<div className="modal-img-wrapper">
-						<figure className="modal-avatar-box">
-							<img
-								src="avatar-1.png"
-								alt="Daniel lewis"
-								width="80"
-								data-modal-img
-							/>
-						</figure>
-
-						<img src="icon-quote.svg" alt="quote icon" />
-					</div>
-
-					<div className="modal-content">
-						<h4 className="h3 modal-title" data-modal-title>
-							Daniel lewis
-						</h4>
-
-						<time datetime="2021-06-14">14 June, 2021</time>
-
-						<div data-modal-text>
-							<p>
-								Richard was hired to create a corporate identity. We were very
-								pleased with the work done. She has a lot of experience and is
-								very concerned about the needs of client. Lorem ipsum dolor sit
-								amet, ullamcous cididt consectetur adipiscing elit, seds do et
-								eiusmod tempor incididunt ut laborels dolore magnarels alia.
-							</p>
-						</div>
-					</div>
-				</section>
-			</div>
-
-			{/* clients */}
-
-			<section className="clients">
-				<h3 className="h3 clients-title">Clients</h3>
-
-				<ul className="clients-list has-scrollbar">
-					<li className="clients-item">
-						<a href="#">
-							<img src="logo-1-color.png" alt="client logo" />
-						</a>
-					</li>
-
-					<li className="clients-item">
-						<a href="#">
-							<img src="logo-2-color.png" alt="client logo" />
-						</a>
-					</li>
-
-					<li className="clients-item">
-						<a href="#">
-							<img src="logo-3-color.png" alt="client logo" />
-						</a>
-					</li>
-
-					<li className="clients-item">
-						<a href="#">
-							<img src="logo-4-color.png" alt="client logo" />
-						</a>
-					</li>
-
-					<li className="clients-item">
-						<a href="#">
-							<img src="logo-5-color.png" alt="client logo" />
-						</a>
-					</li>
-
-					<li className="clients-item">
-						<a href="#">
-							<img src="logo-6-color.png" alt="client logo" />
-						</a>
-					</li>
-				</ul>
 			</section>
 		</article>
 	);
