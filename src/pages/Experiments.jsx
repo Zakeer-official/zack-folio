@@ -15,13 +15,32 @@ export default function Experiments() {
 					</span>
 				</div>
 				<p className="cristik text-center m-0 mt-8">
-					<ScrambleText>Experiments</ScrambleText>
+					<ScrambleText>Certifications</ScrambleText>
 				</p>
-				<p className="m-0 text-center text-xl opacity-40">
-					<i>Some Cool Projects , Stuff and Experiments on the way</i>
-					<br />
-					<b>COMING SOON...</b>
-				</p>
+				
+				{/* Certifications Grid */}
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+					{/* Certification 1 */}
+					<div className="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform">
+						<img 
+							src="/path/to/certification1.jpg" 
+							alt="Certification 1" 
+							className="w-full h-auto rounded"
+						/>
+						<h3 className="text-xl font-semibold mt-2">Certification Name 1</h3>
+						<p className="text-sm opacity-75">Issued by: Organization</p>
+					</div>
+					
+					{/* Certification 2 */}
+					<div className="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform">
+						<img 
+							src="/path/to/certification2.jpg" 
+							alt="Certification 2" 
+							className="w-full h-auto rounded"
+						/>
+						<h3 className="text-xl font-semibold mt-2">Certification Name 2</h3>
+						<p className="text-sm opacity-75">Issued by: Organization</p>
+					</div>
 			</div>
 		</article>
 	);
