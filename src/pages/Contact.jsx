@@ -1,6 +1,35 @@
 import React from "react";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+	const form = useRef();
+	  const [isSending, setIsSending] = useState(false);
+	  const [isSent, setIsSent] = useState(false);
+	  const [error, setError] = useState(null);
+	
+	  const sendEmail = (e) => {
+	    e.preventDefault();
+	    setIsSending(true);
+	    setError(null);
+	
+	    emailjs.sendForm(
+	      'service_smqwbwh', // EmailJS service ID
+	      'template_aekeuvw', // EmailJS template ID
+	      form.current,
+	      'UvjMzsXOBLSjxAWt2' // EmailJS public key
+	    )
+	    .then((result) => {
+	      console.log(result.text);
+	      setIsSent(true);
+	      setIsSending(false);
+	      form.current.reset();
+	      setTimeout(() => setIsSent(false), 5000);
+	    }, (error) => {
+	      console.log(error.text);
+	      setError('Failed to send message. Please try again.');
+	      setIsSending(false);
+	    });
+	  };
 	return (
 		<article className="contact active" data-page="contact">
 			<header>
