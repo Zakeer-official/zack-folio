@@ -41,6 +41,7 @@ export default function Experiments() {
 						<h3 className="text-xl font-semibold mt-2">Certification Name 2</h3>
 						<p className="text-sm opacity-75">Issued by: Organization</p>
 					</div>
+					</div>
 			</div>
 		</article>
 	);
