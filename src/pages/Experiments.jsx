@@ -23,7 +23,7 @@ export default function Experiments() {
 					{/* Certification 1 */}
 					<div className="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform">
 						<img 
-							src="/path/to/certification1.jpg" 
+							src="#" 
 							alt="Certification 1" 
 							className="w-full h-auto rounded"
 						/>
@@ -34,7 +34,7 @@ export default function Experiments() {
 					{/* Certification 2 */}
 					<div className="bg-gray-800 p-4 rounded-lg shadow-lg hover:scale-105 transition-transform">
 						<img 
-							src="/path/to/certification2.jpg" 
+							src="#" 
 							alt="Certification 2" 
 							className="w-full h-auto rounded"
 						/>
