@@ -102,13 +102,13 @@ export default function Home() {
 							<a href="https://github.com/Zakeer-official">Github</a>
 						</div>
 					</div>
-					<div className="homebox ">
-						<div className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4">
+{/* <div className="homebox ">
+					<div className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4">
 						<div>
-							<ion-icon name="logo-instagram"></ion-icon>
-							<a href="https://www.instagram.com/zakeer_ahamad_/">Instagram</a>
+							<ion-icon name="logo-instagram"></ion-icon> Instagram
+
 						</div>
-					</div> 
+					</div> */}
 					<div className="homebox flex-1 flex items-center justify-center p-4 md:w-1/4">
 						<div>
 							<ion-icon name="logo-medium"></ion-icon>
